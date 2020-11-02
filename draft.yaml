@@ -1,0 +1,51 @@
+models:
+  Module:
+    name: string
+  State:
+    module_id : id
+    name: string
+  Zone:
+    name: string
+  Region:
+    name: string
+    relationships:
+      hasMany: Zone
+  Department:
+    region_id: id
+    name: string
+    relationships:
+      hasMany: City
+  City:
+    department_id: id
+    name: string
+  District:
+    city_id: id
+    zone_id: id
+    name: string
+  TypeDocument:
+    name: string
+  Gender:
+    name: string
+  CodeValidation:
+    code: string unique
+    start_at: dateTime
+    end_at: dateTime
+  Inscription:
+    state_id: id
+    typedocument_id: id
+    district_id: id
+    gender_id: id
+    codevalidation_id: id
+    firstname: string
+    lastname: string
+    email: string unique
+    phone: string
+    document: string
+    birthday: date
+    address: string
+
+seeders: Module, State,Zone,Region,Department,City,District,TypeDocument,Gender,CodeValidation
+
+
+
+

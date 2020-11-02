@@ -1,0 +1,56 @@
+created:
+    - database/factories/ModuleFactory.php
+    - database/factories/StateFactory.php
+    - database/factories/ZoneFactory.php
+    - database/factories/RegionFactory.php
+    - database/factories/DepartmentFactory.php
+    - database/factories/CityFactory.php
+    - database/factories/DistrictFactory.php
+    - database/factories/TypeDocumentFactory.php
+    - database/factories/GenderFactory.php
+    - database/factories/CodeValidationFactory.php
+    - database/factories/InscriptionFactory.php
+    - database/migrations/2020_11_02_145634_create_modules_table.php
+    - database/migrations/2020_11_02_145635_create_states_table.php
+    - database/migrations/2020_11_02_145636_create_zones_table.php
+    - database/migrations/2020_11_02_145637_create_regions_table.php
+    - database/migrations/2020_11_02_145638_create_departments_table.php
+    - database/migrations/2020_11_02_145639_create_cities_table.php
+    - database/migrations/2020_11_02_145640_create_districts_table.php
+    - database/migrations/2020_11_02_145641_create_type_documents_table.php
+    - database/migrations/2020_11_02_145642_create_genders_table.php
+    - database/migrations/2020_11_02_145643_create_code_validations_table.php
+    - database/migrations/2020_11_02_145644_create_inscriptions_table.php
+    - app/Models/Module.php
+    - app/Models/State.php
+    - app/Models/Zone.php
+    - app/Models/Region.php
+    - app/Models/Department.php
+    - app/Models/City.php
+    - app/Models/District.php
+    - app/Models/TypeDocument.php
+    - app/Models/Gender.php
+    - app/Models/CodeValidation.php
+    - app/Models/Inscription.php
+    - database/seeds/ModuleSeeder.php
+    - database/seeds/StateSeeder.php
+    - database/seeds/ZoneSeeder.php
+    - database/seeds/RegionSeeder.php
+    - database/seeds/DepartmentSeeder.php
+    - database/seeds/CitySeeder.php
+    - database/seeds/DistrictSeeder.php
+    - database/seeds/TypeDocumentSeeder.php
+    - database/seeds/GenderSeeder.php
+    - database/seeds/CodeValidationSeeder.php
+models:
+    Module: { name: string }
+    State: { module_id: id, name: string }
+    Zone: { name: string }
+    Region: { name: string, relationships: { hasMany: Zone } }
+    Department: { region_id: id, name: string, relationships: { hasMany: City } }
+    City: { department_id: id, name: string }
+    District: { city_id: id, zone_id: id, name: string }
+    TypeDocument: { name: string }
+    Gender: { name: string }
+    CodeValidation: { code: 'string unique', start_at: dateTime, end_at: dateTime }
+    Inscription: { state_id: id, typedocument_id: id, district_id: id, gender_id: id, codevalidation_id: id, firstname: string, lastname: string, email: 'string unique', phone: string, document: string, birthday: date, address: string }
