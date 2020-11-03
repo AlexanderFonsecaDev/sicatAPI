@@ -23,99 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d9def0-52ae-4bca-99aa-c075a57ee794" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.blueprint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ModuleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/ModuleCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/ModuleResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/CodeValidation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/District.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Gender.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Inscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Module.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Region.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/TypeDocument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Zone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/blueprint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CityFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CodeValidationFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/DepartmentFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/DistrictFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/GenderFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/InscriptionFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ModuleFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/RegionFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/StateFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/TypeDocumentFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ZoneFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145634_create_modules_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145635_create_states_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145636_create_zones_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145637_create_regions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145638_create_departments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145639_create_cities_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145640_create_districts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145641_create_type_documents_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145642_create_genders_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145643_create_code_validations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_145644_create_inscriptions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CitySeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CodeValidationSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DepartmentSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DistrictSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/GenderSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ModuleSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/RegionSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/StateSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TypeDocumentSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZoneSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draft.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/console.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.invokable.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.model.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.model.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.nested.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.nested.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.plain.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/factory.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/job.queued.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/job.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/middleware.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/migration.create.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/migration.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/migration.update.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/model.pivot.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/model.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/policy.plain.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/policy.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/request.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/resource-collection.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/resource.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/rule.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/seeder.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/test.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/test.unit.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Modules/SortModules.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sicat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sicat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ForgotPasswordTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ForgotPasswordTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/LoginTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/LoginTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/RegisterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/RegisterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ResetPasswordTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ResetPasswordTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ModuleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ForgotPasswordTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/LoginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/RegisterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ResetPasswordTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4.10">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
@@ -266,24 +182,39 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="PHPUnit.ListModules">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.SortModules">
     <configuration name="ListModules" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4.10" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <TestRunner class="Tests\Feature\Modules\ListModules" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="ListModules.can_fetch_all_modules" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Modules\ListModules" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" method="can_fetch_all_modules" scope="Method" />
+    <configuration name="Modules" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4.10" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" directory="$PROJECT_DIR$/tests/Feature/Modules" use_alternative_configuration_file="true" />
       <method v="2" />
     </configuration>
-    <configuration name="ListModules.can_fetch_single_module" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Modules\ListModules" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" method="can_fetch_single_module" scope="Method" />
+    <configuration name="SortModules" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Modules\SortModules" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Modules/SortModules.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="ListModules.i_can_list_all_modules" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Modules\ListModules" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Modules/ListModules.php" method="i_can_list_all_modules" scope="Method" />
+    <configuration name="SortModules.it_can_sort_modules_by_name_asc" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Modules\SortModules" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Modules/SortModules.php" method="it_can_sort_modules_by_name_asc" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -296,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.SortModules" />
+        <item itemvalue="PHPUnit.Modules" />
         <item itemvalue="PHPUnit.ListModules" />
-        <item itemvalue="PHPUnit.ListModules.can_fetch_all_modules" />
-        <item itemvalue="PHPUnit.ListModules.can_fetch_single_module" />
-        <item itemvalue="PHPUnit.ListModules.i_can_list_all_modules" />
         <item itemvalue="PHPUnit.tests" />
+        <item itemvalue="PHPUnit.SortModules.it_can_sort_modules_by_name_asc" />
       </list>
     </recent_temporary>
   </component>
@@ -323,6 +254,7 @@
       <workItem from="1604095341074" duration="9889000" />
       <workItem from="1604150428655" duration="534000" />
       <workItem from="1604327128588" duration="9326000" />
+      <workItem from="1604376379403" duration="4805000" />
     </task>
     <servers />
   </component>
@@ -369,33 +301,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="746" y="414" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1/0.0.1920.1080@0.0.1920.1080" timestamp="1604103134876" />
-    <state width="1878" height="300" key="GridCell.Tab.0.bottom" timestamp="1604347666417">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1320" height="348" key="GridCell.Tab.0.bottom" timestamp="1604381197052">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604347666417" />
-    <state width="1878" height="300" key="GridCell.Tab.0.center" timestamp="1604347666416">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1320" height="348" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1604381197052" />
+    <state width="1320" height="348" key="GridCell.Tab.0.center" timestamp="1604381197052">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604347666416" />
-    <state width="1878" height="300" key="GridCell.Tab.0.left" timestamp="1604347666415">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1320" height="348" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1604381197052" />
+    <state width="1320" height="348" key="GridCell.Tab.0.left" timestamp="1604381197052">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604347666415" />
-    <state width="1878" height="300" key="GridCell.Tab.0.right" timestamp="1604347666416">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1320" height="348" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1604381197052" />
+    <state width="1320" height="348" key="GridCell.Tab.0.right" timestamp="1604381197052">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604347666416" />
+    <state width="1320" height="348" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1604381197052" />
     <state x="783" y="466" key="NewPhpFileDialog" timestamp="1603223719162">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="783" y="466" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603223719162" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1604095577396">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1604381071515">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604095577396" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1604332959435">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1604381071515" />
+    <state x="445" y="192" width="672" height="464" key="search.everywhere.popup" timestamp="1604380024684">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604332959435" />
+    <state x="445" y="192" width="672" height="464" key="search.everywhere.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1604380024684" />
   </component>
 </project>

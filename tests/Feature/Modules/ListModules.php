@@ -25,11 +25,11 @@ class ListModules extends TestCase
                 'id' => (string)$module->getRouteKey(),
                 'attributes' => [
                     'name' => $module->name
+                ],
+                'links' => [
+                    'self' => route('api.v1.modules.show', $module)
                 ]
             ],
-            'links' => [
-                'self' => route('api.v1.modules.show', $module)
-            ]
         ]);
 
     }
@@ -37,8 +37,7 @@ class ListModules extends TestCase
     /** @test */
     public function can_fetch_all_modules()
     {
-
-
+        
         $modules = factory(Module::class)->times(3)->create();
 
         $response = $this->getJson(route('api.v1.modules.index'));
